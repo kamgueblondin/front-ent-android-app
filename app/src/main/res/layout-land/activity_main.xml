@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#BED4D6">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wactivi, tous vos activités numériser"
+            android:layout_marginTop="@dimen/text_title_padding_to_land"
+            android:textSize="@dimen/text_title_size"
+            android:padding="@dimen/text_title_padding_land"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/image_layout_width"
+            android:layout_height="@dimen/image_layout_heidth"
+            android:src="@drawable/l3"/>
+    </LinearLayout>
+
+</LinearLayout>
