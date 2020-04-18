@@ -19,7 +19,7 @@
             android:layout_marginTop="@dimen/text_title_padding_to_land"
             android:textSize="@dimen/text_title_size"
             android:padding="@dimen/text_title_padding_land"
-            android:textAlignment="center"
+            android:textAlignment="center" 
             android:textColor="#FFFFFF"
             android:gravity="center_horizontal" />
 
